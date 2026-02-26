@@ -8,3 +8,4 @@ To produce a new image, publish a new GitHub release with a semantic version as 
 
 ![Guestbook](guestbook-page.png)
 
+## What happens when changing the markdown?
