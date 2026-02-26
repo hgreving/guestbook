@@ -9,6 +9,7 @@ RUN GOOS=$TARGETOS GOARCH=$TARGETARCH make build
 
 FROM alpine:latest
 WORKDIR /app
+
 COPY --from=builder /src/build/guestbook /app/guestbook
 COPY ./public/index.html public/index.html
 COPY ./public/script.js public/script.js
